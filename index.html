@@ -10,18 +10,21 @@
     <div id="main-container">
         <div id="main-content">
             <header class="page-title">
-                <h1>MY GOALS FOR THE NEXT 2 YEARS IN THE 'TECH' FIELD</h1>
+                <h1>MY GOALS FOR THE NEXT 2 YEARS IN THE TECH FIELD</h1>
             </header>
+            <footer data-testid="slackEmail" class="email-container">Have feedback? Reach out me at <b>nifemikaz@gmail.com </b>and I'll gladly reply!</footer>
         </div>
         <div id="side-bar">
-            <img class="profile-pic" src="/resources/img/portrait-adjustment.png">
+            <img class="profile-pic" src="/resources/img/portrait-adjustment.png" data-testid="slackProfilePicture">
             <div class="slack-details">
-                <div class="slack-details-name">
-                    <h1>Kazeem Oluwanifemi</h1>
+                
+                <div class="slack-details-name" data-testid="slackDisplayName">
+                    <h1>Beth Kaz</h1>
                 </div>
                 <p class="about-me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor eos eius dolorem error quam beatae ex sequi voluptate animi quisquam quas consequatur quasi, illum rem sit totam, saepe enim quod.</p>
-                <div class="current-date-time">
-                    <p id="current-date-time"></p>
+
+                <div class="current-date-time" data-testid="currentTimeUTC">
+                    <p id="current-date-time" data-testid="currentDay"></p>
                 </div>
             </div>
         </div>

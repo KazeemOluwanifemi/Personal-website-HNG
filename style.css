@@ -13,6 +13,7 @@
 body{
     background-color: var(--background-blue);
     font-family: var(--primary-font);
+    margin: 0px; 
 }
 
 /* #main-container{
@@ -29,11 +30,44 @@ body{
     bottom: 0;
     padding: 20px;
     background-color: var(--deep-blue);
-    color: #DAFFFB;
+    color: var(--background-blue);
+    text-align: center;
+    /* box-shadow: -10px 10px black; */
 }
 
-.main-content{
-    display: flex;
-    border: 20px  #176B87;
-    margin-left: 300px;
+.about-me{
+    font-weight: 200;
 }
+
+#main-content{
+    display: grid;
+    text-align: center;
+    margin-left: 340px;
+    padding: 20px;
+}
+
+.current-date-time{
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+
+.email-container{
+    font-weight: 200;
+    text-align: center;
+    position: fixed;
+    top: 1;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+
+}
+
+.page-title {
+    color: var(--deep-blue);
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
