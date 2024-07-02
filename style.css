@@ -16,9 +16,10 @@ body{
     margin: 0px; 
 }
 
-/* #main-container{
+#main-container{
     display: flex;
-} */
+    flex-wrap: wrap;
+}
 
 #side-bar{
     width: 300px;
