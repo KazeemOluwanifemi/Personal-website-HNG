@@ -28,7 +28,7 @@ body{
     top: 0;
     left: 0;
     bottom: 0;
-    overflow-y:auto;
+    overflow-y: auto;
     padding: 20px;
     background-color: var(--deep-blue);
     color: var(--background-blue);
@@ -56,6 +56,14 @@ a:hover{
     color: #64CCC5;
 }
 
+.important-links{
+    font-weight: 100;
+}
+
+.hng-link{
+    font-weight: 100;
+}
+
 #main-content{
     display: grid;
     text-align: center;
@@ -65,6 +73,12 @@ a:hover{
 
 .my-goals{
     font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.my-goals p{
+    
+    font-size: 1.3rem;
 }
 
 .current-date-time{
@@ -76,8 +90,8 @@ a:hover{
 
 .email-container{
     font-weight: 200;
-    text-align: center;
-    position: fixed;
+    text-align: right;
+    position: relative;
     top: 1;
     bottom: 0;
     right: 0;
