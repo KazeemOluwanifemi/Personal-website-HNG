@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+    <div id="main-container">
+        <div id="main content">
+            <header class="page-title">
+                <h1>MY GOALS FOR THE NEXT 2 YEARS IN THE 'TECH' FIELD</h1>
+            </header>
+
+        </div>
+        <div id="side-bar">
+            <img class="profile-pic">
+            <div class="slack-details">
+                <div class="slack-details-name">
+                    <h1>Kazeem Oluwanifemi</h1>
+                </div>
+                <p class="about-me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor eos eius dolorem error quam beatae ex sequi voluptate animi quisquam quas consequatur quasi, illum rem sit totam, saepe enim quod.</p>
+                <div class="current-date-time">
+                    <p id="current-date-time"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- display current date and time -->
+    <script>
+        const currentTime = document.getElementById("current-date-time");
+        function updateDateTime() {
+            const now = new Date();
+            const dateTime = now.toLocaleString();
+            currentTime.textContent = dateTime;
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 1000); // Update every 1 second
+    </script>
 </body>
 </html>
