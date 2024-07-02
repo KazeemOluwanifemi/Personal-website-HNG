@@ -1,9 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&display=swap');
 
 /* Set variable style: fonts and colors */
 :root{
     --primary-font:'Outfit';
     --secondary-font:'Andika';
+    --background-blue: #eefffd;
+    --cyan-blue: #64CCC5;
+    --blue: #176B87;
+    --deep-blue: #001C30;
+}
+
+body{
+    background-color: var(--background-blue);
+    font-family: var(--primary-font);
+}
+
+/* #main-container{
+    display: flex;
+} */
+
+#side-bar{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: var(--deep-blue);
+    color: #DAFFFB;
+}
+
+.main-content{
+    display: flex;
+    border: 20px  #176B87;
+    margin-left: 300px;
 }
