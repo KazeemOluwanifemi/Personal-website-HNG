@@ -106,3 +106,38 @@ a:hover{
     text-align: center;
 }
 
+
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 1200px) {
+    #main-content {
+        flex: 1;
+        padding: 10px;
+    }
+    #side-bar {
+        flex: 0 0 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #main-container {
+        flex-direction: column;
+    }
+    #main-content {
+        flex: 1;
+        padding: 10px;
+    }
+    #side-bar {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #main-content {
+        padding: 5px;
+    }
+    #side-bar {
+        padding: 5px;
+    }
+}
